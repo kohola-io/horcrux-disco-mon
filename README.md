@@ -18,7 +18,7 @@ This script and service assumes that the horcrux signer is running under a user 
 
 ### Change the sentry labels (use the same order as above):
 
-`sentryLabels=( "sentry1" "sentry1" )`
+`sentryLabels=( "sentry1" "sentry2" )`
 
 ### Label each signer:
 
