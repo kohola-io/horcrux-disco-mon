@@ -30,7 +30,7 @@ This script and service assumes that the horcrux signer is running under a user 
 
 ### Create a Discord Webhook in your channel and paste the webhook url into the script:
 
-`url="https://discord.com/api/webhooks/1021204268902010900/GgXg8k4tqI3mwZP6ka0bgHx6t32jBkqY7-8oG7hH6EterU8mb-hilqtZkXURMWc3WbJU"`
+`url="https://discord.com/api/webhooks/..."`
 
 ### Move service file to systemd directory:
 
