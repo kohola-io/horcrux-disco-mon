@@ -31,6 +31,7 @@ announceChanges () {
       if [ $leaderCount -ge 1 ]; then
         echo "Already leader" > /dev/null 2>&1
       else
+        notLeaderCount=0
         mesg="$whoamiEmoji: 👑 I am the raft leader"
         publishDiscord "$mesg"
         echo $mesg
@@ -40,6 +41,7 @@ announceChanges () {
       if [ $notLeaderCount -ge 1 ]; then
         echo "Already not leader" > /dev/null 2>&1
       else
+        leaderCount=0
         mesg="$whoamiEmoji: ⛓ I am not the raft leader"
         publishDiscord "$mesg"
         echo $mesg
