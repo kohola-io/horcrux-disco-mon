@@ -1,0 +1,15 @@
+[Unit]
+Description=Horcrux Discord Monitor
+After=network.target
+
+[Service]
+Type=simple
+User=horcrux
+WorkingDirectory=/home/horcrux
+ExecStart=/home/horcrux/horcrux-disco-mon.sh
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=4096
+
+[Install]
+WantedBy=multi-user.target
