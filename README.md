@@ -1,5 +1,5 @@
 # horcrux-disco-mon
-Log scrapper for [Strange Love Labs Horcrux MPC signer](https://github.com/strangelove-ventures/horcrux) for Cosmos SDK chains that echoes log content to a Discord webhook
+Log scrapper for [Strangelove Labs Horcrux MPC signer](https://github.com/strangelove-ventures/horcrux) for Cosmos SDK chains that echoes log content to a Discord webhook
 
 Tested on Ubuntu 22.04
 
